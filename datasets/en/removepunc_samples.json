@@ -1,0 +1,502 @@
+[
+    {
+        "context": "With the future economic trajectory of the world 's major powers at stake , fault lines have erupted both within the developing world and between the industrial world and emerging economies .",
+        "removepunc": "With the future economic trajectory of the world  s major powers at stake   fault lines have erupted both within the developing world and between the industrial world and emerging economies  ",
+        "robust_remove": "With the future economic trajectory of the world s major powers at stake fault lines have erupted both within the developing world and between the industrial world and emerging economies"
+    },
+    {
+        "context": "Also , the treatment of vomiting should only be together with other supportive measure or other veterinary therapy while addressing the underlying causes of the vomiting .",
+        "removepunc": "Also   the treatment of vomiting should only be together with other supportive measure or other veterinary therapy while addressing the underlying causes of the vomiting  ",
+        "robust_remove": "Also the treatment of vomiting should only be together with other supportive measure or other veterinary therapy while addressing the underlying causes of the vomiting"
+    },
+    {
+        "context": "A woman in a three-story apartment was able to walk out the window of the third floor onto street level after the quake .",
+        "removepunc": "A woman in a three story apartment was able to walk out the window of the third floor onto street level after the quake  ",
+        "robust_remove": "A woman in a three-story apartment was able to walk out the window of the third floor onto street level after the quake"
+    },
+    {
+        "context": "Minute by minute , they sent out reports of gruesome testimony via Twitter .",
+        "removepunc": "Minute by minute   they sent out reports of gruesome testimony via Twitter  ",
+        "robust_remove": "Minute by minute they sent out reports of gruesome testimony via Twitter"
+    },
+    {
+        "context": "The report and a casebook of initiatives will be published in 1996 and provide the backdrop for a conference to be staged in Autumn , 1996 .",
+        "removepunc": "The report and a casebook of initiatives will be published in 1996 and provide the backdrop for a conference to be staged in Autumn   1996  ",
+        "robust_remove": "The report and a casebook of initiatives will be published in 1996 and provide the backdrop for a conference to be staged in Autumn 1996"
+    },
+    {
+        "context": "On the Right , the tone was set by Jacques Chirac , who declared in 1976 that `` 900,000 unemployed would not become a problem in a country with 2 million of foreign workers , '' and on the Left by Michel Rocard explaining in 1990 that France `` can not accommodate all the world 's misery . ''",
+        "removepunc": "On the Right   the tone was set by Jacques Chirac   who declared in 1976 that    900 000 unemployed would not become a problem in a country with 2 million of foreign workers      and on the Left by Michel Rocard explaining in 1990 that France    can not accommodate all the world  s misery     ",
+        "robust_remove": "On the Right the tone was set by Jacques Chirac who declared in 1976 that 900,000 unemployed would not become a problem in a country with 2 million of foreign workers and on the Left by Michel Rocard explaining in 1990 that France can not accommodate all the world s misery"
+    },
+    {
+        "context": "Evidence now is emerging that the p53 suppressor gene is involved in other cancers , too .",
+        "removepunc": "Evidence now is emerging that the p53 suppressor gene is involved in other cancers   too  ",
+        "robust_remove": "Evidence now is emerging that the p53 suppressor gene is involved in other cancers too"
+    },
+    {
+        "context": "Not one thing in the house is where it is supposed to be , but the structure is fine .",
+        "removepunc": "Not one thing in the house is where it is supposed to be   but the structure is fine  ",
+        "robust_remove": "Not one thing in the house is where it is supposed to be but the structure is fine"
+    },
+    {
+        "context": "Medical scientists are starting to uncover a handful of genes which , if damaged , unleash the chaotic growth of cells that characterizes cancer .",
+        "removepunc": "Medical scientists are starting to uncover a handful of genes which   if damaged   unleash the chaotic growth of cells that characterizes cancer  ",
+        "robust_remove": "Medical scientists are starting to uncover a handful of genes which if damaged unleash the chaotic growth of cells that characterizes cancer"
+    },
+    {
+        "context": "In the same way as a surgeon would find it difficult to work in a country with a shortage of anaesthetists , the complementarities existing between locals and immigrants bring it about that the arrival of immigrants has a positive effect on the pay of locals .",
+        "removepunc": "In the same way as a surgeon would find it difficult to work in a country with a shortage of anaesthetists   the complementarities existing between locals and immigrants bring it about that the arrival of immigrants has a positive effect on the pay of locals  ",
+        "robust_remove": "In the same way as a surgeon would find it difficult to work in a country with a shortage of anaesthetists the complementarities existing between locals and immigrants bring it about that the arrival of immigrants has a positive effect on the pay of locals"
+    },
+    {
+        "context": "When they found it last winter , Dr. Vogelstein was dubious that the search was over .",
+        "removepunc": "When they found it last winter   Dr  Vogelstein was dubious that the search was over  ",
+        "robust_remove": "When they found it last winter Dr Vogelstein was dubious that the search was over"
+    },
+    {
+        "context": "Then , at a signal , the ringers begin varying the order in which the bells sound without altering the steady rhythm of the striking .",
+        "removepunc": "Then   at a signal   the ringers begin varying the order in which the bells sound without altering the steady rhythm of the striking  ",
+        "robust_remove": "Then at a signal the ringers begin varying the order in which the bells sound without altering the steady rhythm of the striking"
+    },
+    {
+        "context": "Put more simply , GOP candidates for president are looked on more kindly by voters than Republican candidates for the Senate when the prisoner 's dilemma is more severe .",
+        "removepunc": "Put more simply   GOP candidates for president are looked on more kindly by voters than Republican candidates for the Senate when the prisoner  s dilemma is more severe  ",
+        "robust_remove": "Put more simply GOP candidates for president are looked on more kindly by voters than Republican candidates for the Senate when the prisoner s dilemma is more severe"
+    },
+    {
+        "context": "In patients who had received chemotherapy in the past , the average survival time was 8.3 months with Alimta , compared with 7.9 months with docetaxel .",
+        "removepunc": "In patients who had received chemotherapy in the past   the average survival time was 8 3 months with Alimta   compared with 7 9 months with docetaxel  ",
+        "robust_remove": "In patients who had received chemotherapy in the past the average survival time was 8.3 months with Alimta compared with 7.9 months with docetaxel"
+    },
+    {
+        "context": "In spite of this , and with Splitter fouling out , Ivonic 's team did n't rush , defended well , and , even though the Israelis came close at the last minute , the game was already won and victory escaped Tel Aviv for the first time in the season .",
+        "removepunc": "In spite of this   and with Splitter fouling out   Ivonic  s team did n t rush   defended well   and   even though the Israelis came close at the last minute   the game was already won and victory escaped Tel Aviv for the first time in the season  ",
+        "robust_remove": "In spite of this and with Splitter fouling out Ivonic s team did nt rush defended well and even though the Israelis came close at the last minute the game was already won and victory escaped Tel Aviv for the first time in the season"
+    },
+    {
+        "context": "Some 44 % of respondents across the region pronounced themselves satisfied with how their country 's democracy works in practice , the same figure as last year but a big increase on the 25 % in 2001 ( chart 3 ) .",
+        "removepunc": "Some 44   of respondents across the region pronounced themselves satisfied with how their country  s democracy works in practice   the same figure as last year but a big increase on the 25   in 2001   chart 3    ",
+        "robust_remove": "Some 44 % of respondents across the region pronounced themselves satisfied with how their country s democracy works in practice the same figure as last year but a big increase on the 25 % in 2001 ( chart 3 )"
+    },
+    {
+        "context": "Dr. Vogelstein and a doctoral student , Eric Fearon , began months of tedious and often frustrating probing of the chromosomes searching for signs of genetic damage .",
+        "removepunc": "Dr  Vogelstein and a doctoral student   Eric Fearon   began months of tedious and often frustrating probing of the chromosomes searching for signs of genetic damage  ",
+        "robust_remove": "Dr Vogelstein and a doctoral student Eric Fearon began months of tedious and often frustrating probing of the chromosomes searching for signs of genetic damage"
+    },
+    {
+        "context": "Dr. Vogelstein hopes soon to isolate one on chromosome 18 , also involved in colon cancer .",
+        "removepunc": "Dr  Vogelstein hopes soon to isolate one on chromosome 18   also involved in colon cancer  ",
+        "robust_remove": "Dr Vogelstein hopes soon to isolate one on chromosome 18 also involved in colon cancer"
+    },
+    {
+        "context": "He was enjoying the weekly ritual of washing down his pet grievance with bourbon slightly moistened with water .",
+        "removepunc": "He was enjoying the weekly ritual of washing down his pet grievance with bourbon slightly moistened with water  ",
+        "robust_remove": "He was enjoying the weekly ritual of washing down his pet grievance with bourbon slightly moistened with water"
+    },
+    {
+        "context": "According to a nationwide survey taken a year ago , nearly a third of England 's church bells are no longer rung on Sundays because there is no one to ring them .",
+        "removepunc": "According to a nationwide survey taken a year ago   nearly a third of England  s church bells are no longer rung on Sundays because there is no one to ring them  ",
+        "robust_remove": "According to a nationwide survey taken a year ago nearly a third of England s church bells are no longer rung on Sundays because there is no one to ring them"
+    },
+    {
+        "context": "In the treatment of patients with non-small cell lung cancer , Alimta was as effective as the comparators .",
+        "removepunc": "In the treatment of patients with non small cell lung cancer   Alimta was as effective as the comparators  ",
+        "robust_remove": "In the treatment of patients with non-small cell lung cancer Alimta was as effective as the comparators"
+    },
+    {
+        "context": "A retired professional killer",
+        "removepunc": "A retired professional killer",
+        "robust_remove": "A retired professional killer"
+    },
+    {
+        "context": "They should see to it that their kids do not play truant ; they should make certain that the children spend enough time doing homework ; they should scrutinize the report card .",
+        "removepunc": "They should see to it that their kids do not play truant   they should make certain that the children spend enough time doing homework   they should scrutinize the report card  ",
+        "robust_remove": "They should see to it that their kids do not play truant they should make certain that the children spend enough time doing homework they should scrutinize the report card"
+    },
+    {
+        "context": "The less complicated version of playing tunes on bells , as do the carillons of continental Europe , is considered by the English to be childish , fit only for foreigners .",
+        "removepunc": "The less complicated version of playing tunes on bells   as do the carillons of continental Europe   is considered by the English to be childish   fit only for foreigners  ",
+        "robust_remove": "The less complicated version of playing tunes on bells as do the carillons of continental Europe is considered by the English to be childish fit only for foreigners"
+    },
+    {
+        "context": "In this sense , a teacher can be compared to one 's family doctor .",
+        "removepunc": "In this sense   a teacher can be compared to one  s family doctor  ",
+        "robust_remove": "In this sense a teacher can be compared to one s family doctor"
+    },
+    {
+        "context": "For decades , appeals courts have recognized that coverage of notorious cases can raise questions about a trial 's fairness .",
+        "removepunc": "For decades   appeals courts have recognized that coverage of notorious cases can raise questions about a trial  s fairness  ",
+        "robust_remove": "For decades appeals courts have recognized that coverage of notorious cases can raise questions about a trial s fairness"
+    },
+    {
+        "context": "Also , the treatment of vomiting should only be together with other supportive measure or other veterinary therapy while addressing the underlying causes of the vomiting .",
+        "removepunc": "Also   the treatment of vomiting should only be together with other supportive measure or other veterinary therapy while addressing the underlying causes of the vomiting  ",
+        "robust_remove": "Also the treatment of vomiting should only be together with other supportive measure or other veterinary therapy while addressing the underlying causes of the vomiting"
+    },
+    {
+        "context": "Although the border between the wittiness and the law fraud is diffuse , in this occasion I believe it was a clear case of wittiness .",
+        "removepunc": "Although the border between the wittiness and the law fraud is diffuse   in this occasion I believe it was a clear case of wittiness  ",
+        "robust_remove": "Although the border between the wittiness and the law fraud is diffuse in this occasion I believe it was a clear case of wittiness"
+    },
+    {
+        "context": "I wonder when we 'll be able to relax .",
+        "removepunc": "I wonder when we  ll be able to relax  ",
+        "robust_remove": "I wonder when we ll be able to relax"
+    },
+    {
+        "context": "But it is about a long term advantage , with a certain degree of indetermination , because the team can be eliminated first of change , and in addition with this action the players fulfil a sanction game and go to the second cycle of cards , in which the suspension by card accumulation takes place with one less than in the first cycle .",
+        "removepunc": "But it is about a long term advantage   with a certain degree of indetermination   because the team can be eliminated first of change   and in addition with this action the players fulfil a sanction game and go to the second cycle of cards   in which the suspension by card accumulation takes place with one less than in the first cycle  ",
+        "robust_remove": "But it is about a long term advantage with a certain degree of indetermination because the team can be eliminated first of change and in addition with this action the players fulfil a sanction game and go to the second cycle of cards in which the suspension by card accumulation takes place with one less than in the first cycle"
+    },
+    {
+        "context": "Oncogenes must be present for a cell to become malignant , but researchers have found them in normal as well as in cancerous cells , suggesting that oncogenes do n't cause cancer by themselves .",
+        "removepunc": "Oncogenes must be present for a cell to become malignant   but researchers have found them in normal as well as in cancerous cells   suggesting that oncogenes do n t cause cancer by themselves  ",
+        "robust_remove": "Oncogenes must be present for a cell to become malignant but researchers have found them in normal as well as in cancerous cells suggesting that oncogenes do nt cause cancer by themselves"
+    },
+    {
+        "context": "When Alimta is given with cisplatin , an anti-emetic medicine ( to prevent vomiting ) and fluids ( to prevent dehydration ) should also be given before or after the cisplatin dose .",
+        "removepunc": "When Alimta is given with cisplatin   an anti emetic medicine   to prevent vomiting   and fluids   to prevent dehydration   should also be given before or after the cisplatin dose  ",
+        "robust_remove": "When Alimta is given with cisplatin an anti-emetic medicine ( to prevent vomiting ) and fluids ( to prevent dehydration ) should also be given before or after the cisplatin dose"
+    },
+    {
+        "context": "First , economists James Bennett and Thomas DiLorenzo find that GOP senators turn back roughly 10 % more of their allocated personal staff budgets than Democrats do .",
+        "removepunc": "First   economists James Bennett and Thomas DiLorenzo find that GOP senators turn back roughly 10   more of their allocated personal staff budgets than Democrats do  ",
+        "robust_remove": "First economists James Bennett and Thomas DiLorenzo find that GOP senators turn back roughly 10 % more of their allocated personal staff budgets than Democrats do"
+    },
+    {
+        "context": "Seeking alternatives to early retirement and redundancy , the project is primarily concerned with the retention , reintegration and retraining of older workers .",
+        "removepunc": "Seeking alternatives to early retirement and redundancy   the project is primarily concerned with the retention   reintegration and retraining of older workers  ",
+        "robust_remove": "Seeking alternatives to early retirement and redundancy the project is primarily concerned with the retention reintegration and retraining of older workers"
+    },
+    {
+        "context": "Part of the debate arisen in the related case is caused by the fact that has been carried out by team of the Real Madrid organization ( that in its hymn presumes of nobility and honor , and that has fined its players for analogous acts ) and by the dramatization orchestrated , apparently , by Mourinho , who adds one more to his expanded history of histrionic and provoking technician .",
+        "removepunc": "Part of the debate arisen in the related case is caused by the fact that has been carried out by team of the Real Madrid organization   that in its hymn presumes of nobility and honor   and that has fined its players for analogous acts   and by the dramatization orchestrated   apparently   by Mourinho   who adds one more to his expanded history of histrionic and provoking technician  ",
+        "robust_remove": "Part of the debate arisen in the related case is caused by the fact that has been carried out by team of the Real Madrid organization ( that in its hymn presumes of nobility and honor , and that has fined its players for analogous acts ) and by the dramatization orchestrated apparently by Mourinho who adds one more to his expanded history of histrionic and provoking technician"
+    },
+    {
+        "context": "Medical scientists are starting to uncover a handful of genes which , if damaged , unleash the chaotic growth of cells that characterizes cancer .",
+        "removepunc": "Medical scientists are starting to uncover a handful of genes which   if damaged   unleash the chaotic growth of cells that characterizes cancer  ",
+        "robust_remove": "Medical scientists are starting to uncover a handful of genes which if damaged unleash the chaotic growth of cells that characterizes cancer"
+    },
+    {
+        "context": "Starting with Congressman Mario Biaggi now serving a jail sentence , the company began a career of bribing federal , state and local public officials and those close to public officials , right up to and including E. Robert Wallach , close friend and adviser to former Attorney General Ed Meese .",
+        "removepunc": "Starting with Congressman Mario Biaggi now serving a jail sentence   the company began a career of bribing federal   state and local public officials and those close to public officials   right up to and including E  Robert Wallach   close friend and adviser to former Attorney General Ed Meese  ",
+        "robust_remove": "Starting with Congressman Mario Biaggi now serving a jail sentence the company began a career of bribing federal state and local public officials and those close to public officials right up to and including E Robert Wallach close friend and adviser to former Attorney General Ed Meese"
+    },
+    {
+        "context": "Phil decided to stay a little longer , and as time passed it seemed as if the strange little man had never been there , but for the other glass on the table .",
+        "removepunc": "Phil decided to stay a little longer   and as time passed it seemed as if the strange little man had never been there   but for the other glass on the table  ",
+        "robust_remove": "Phil decided to stay a little longer and as time passed it seemed as if the strange little man had never been there but for the other glass on the table"
+    },
+    {
+        "context": "As Vitora 's first four baskets were from the perimeter , the speculation was already that they had jumped into the Israeli net with hot wrists .",
+        "removepunc": "As Vitora  s first four baskets were from the perimeter   the speculation was already that they had jumped into the Israeli net with hot wrists  ",
+        "robust_remove": "As Vitora s first four baskets were from the perimeter the speculation was already that they had jumped into the Israeli net with hot wrists"
+    },
+    {
+        "context": "If we introduce the condition before the ? it will use this condition only if it is true , if it finds a ? without any condition , it will enter in the last instance .",
+        "removepunc": "If we introduce the condition before the   it will use this condition only if it is true   if it finds a   without any condition   it will enter in the last instance  ",
+        "robust_remove": "If we introduce the condition before the it will use this condition only if it is true if it finds a without any condition it will enter in the last instance"
+    },
+    {
+        "context": "We finally rendezvoused with our balloon , which had come to rest on a dirt road amid a clutch of Epinalers who watched us disassemble our craft -- another half-an-hour of non-flight activity -- that included the precision routine of yanking the balloon to the ground , punching all the air out of it , rolling it up and cramming it and the basket into the trailer .",
+        "removepunc": "We finally rendezvoused with our balloon   which had come to rest on a dirt road amid a clutch of Epinalers who watched us disassemble our craft    another half an hour of non flight activity    that included the precision routine of yanking the balloon to the ground   punching all the air out of it   rolling it up and cramming it and the basket into the trailer  ",
+        "robust_remove": "We finally rendezvoused with our balloon which had come to rest on a dirt road amid a clutch of Epinalers who watched us disassemble our craft -- another half-an-hour of non-flight activity -- that included the precision routine of yanking the balloon to the ground punching all the air out of it rolling it up and cramming it and the basket into the trailer"
+    },
+    {
+        "context": "In patients who had received chemotherapy in the past , the average survival time was 8.3 months with Alimta , compared with 7.9 months with docetaxel .",
+        "removepunc": "In patients who had received chemotherapy in the past   the average survival time was 8 3 months with Alimta   compared with 7 9 months with docetaxel  ",
+        "robust_remove": "In patients who had received chemotherapy in the past the average survival time was 8.3 months with Alimta compared with 7.9 months with docetaxel"
+    },
+    {
+        "context": "The discovery of a strange bacteria that can use arsenic as one of its nutrients widens the scope for finding new forms of life on Earth and possibly beyond .",
+        "removepunc": "The discovery of a strange bacteria that can use arsenic as one of its nutrients widens the scope for finding new forms of life on Earth and possibly beyond  ",
+        "robust_remove": "The discovery of a strange bacteria that can use arsenic as one of its nutrients widens the scope for finding new forms of life on Earth and possibly beyond"
+    },
+    {
+        "context": "But if he was the real thing , he could do something about Lolly .",
+        "removepunc": "But if he was the real thing   he could do something about Lolly  ",
+        "robust_remove": "But if he was the real thing he could do something about Lolly"
+    },
+    {
+        "context": "When Alimta is given with cisplatin , an anti-emetic medicine ( to prevent vomiting ) and fluids ( to prevent dehydration ) should also be given before or after the cisplatin dose .",
+        "removepunc": "When Alimta is given with cisplatin   an anti emetic medicine   to prevent vomiting   and fluids   to prevent dehydration   should also be given before or after the cisplatin dose  ",
+        "robust_remove": "When Alimta is given with cisplatin an anti-emetic medicine ( to prevent vomiting ) and fluids ( to prevent dehydration ) should also be given before or after the cisplatin dose"
+    },
+    {
+        "context": "In a recent report , the Institute of Medicine pointed out that certain health problems may predispose a person to homelessness , others may be a consequence of it , and a third category is composed of disorders whose treatment is difficult or impossible if a person lacks adequate shelter .",
+        "removepunc": "In a recent report   the Institute of Medicine pointed out that certain health problems may predispose a person to homelessness   others may be a consequence of it   and a third category is composed of disorders whose treatment is difficult or impossible if a person lacks adequate shelter  ",
+        "robust_remove": "In a recent report the Institute of Medicine pointed out that certain health problems may predispose a person to homelessness others may be a consequence of it and a third category is composed of disorders whose treatment is difficult or impossible if a person lacks adequate shelter"
+    },
+    {
+        "context": "As if the problems at home were not already enough for Deutsche Bank , the industry giant 's past in the USA is now also catching up with it . Frankfurt-based Deutsche Bank will pay 145 million dollars ( 106 million Euros ) to settle disputes arising from the bankruptcy of five major credit unions during the financial crisis .",
+        "removepunc": "As if the problems at home were not already enough for Deutsche Bank   the industry giant  s past in the USA is now also catching up with it   Frankfurt based Deutsche Bank will pay 145 million dollars   106 million Euros   to settle disputes arising from the bankruptcy of five major credit unions during the financial crisis  ",
+        "robust_remove": "As if the problems at home were not already enough for Deutsche Bank the industry giant s past in the USA is now also catching up with it Frankfurt-based Deutsche Bank will pay 145 million dollars ( 106 million Euros ) to settle disputes arising from the bankruptcy of five major credit unions during the financial crisis"
+    },
+    {
+        "context": "A large number of studies with Cerenia were carried out either in laboratory dogs or in animal patients at veterinary practises in several European countries and in the USA .",
+        "removepunc": "A large number of studies with Cerenia were carried out either in laboratory dogs or in animal patients at veterinary practises in several European countries and in the USA  ",
+        "robust_remove": "A large number of studies with Cerenia were carried out either in laboratory dogs or in animal patients at veterinary practises in several European countries and in the USA"
+    },
+    {
+        "context": "The Central Council of Church Bell Ringers , a sort of parliament of ringing groups , aims to improve relations with vicars , says John C. Baldwin , president .",
+        "removepunc": "The Central Council of Church Bell Ringers   a sort of parliament of ringing groups   aims to improve relations with vicars   says John C  Baldwin   president  ",
+        "robust_remove": "The Central Council of Church Bell Ringers a sort of parliament of ringing groups aims to improve relations with vicars says John C Baldwin president"
+    },
+    {
+        "context": "They know that whenever government is redistributing wealth , regulating commerce or maintaining a large defense establishment , there is big money to be made in influencing , brokering or selling the processes and decisions of government .",
+        "removepunc": "They know that whenever government is redistributing wealth   regulating commerce or maintaining a large defense establishment   there is big money to be made in influencing   brokering or selling the processes and decisions of government  ",
+        "robust_remove": "They know that whenever government is redistributing wealth regulating commerce or maintaining a large defense establishment there is big money to be made in influencing brokering or selling the processes and decisions of government"
+    },
+    {
+        "context": "But in Baltimore , Dr. Vogelstein , a young molecular biologist at Johns Hopkins Medical School , believed Dr. Knudson was right , and set out to repeat the Cavenee experiment in cells from other cancers .",
+        "removepunc": "But in Baltimore   Dr  Vogelstein   a young molecular biologist at Johns Hopkins Medical School   believed Dr  Knudson was right   and set out to repeat the Cavenee experiment in cells from other cancers  ",
+        "robust_remove": "But in Baltimore Dr Vogelstein a young molecular biologist at Johns Hopkins Medical School believed Dr Knudson was right and set out to repeat the Cavenee experiment in cells from other cancers"
+    },
+    {
+        "context": "In the end , the defense says , there were more than 140,000 Twitter messages about the trial that dealt with rape and children tied to their beds in a house that was set ablaze .",
+        "removepunc": "In the end   the defense says   there were more than 140 000 Twitter messages about the trial that dealt with rape and children tied to their beds in a house that was set ablaze  ",
+        "robust_remove": "In the end the defense says there were more than 140,000 Twitter messages about the trial that dealt with rape and children tied to their beds in a house that was set ablaze"
+    },
+    {
+        "context": "If both copies of a second gene were then deleted , the polyps would progress to malignancy .",
+        "removepunc": "If both copies of a second gene were then deleted   the polyps would progress to malignancy  ",
+        "robust_remove": "If both copies of a second gene were then deleted the polyps would progress to malignancy"
+    },
+    {
+        "context": "An additional piece of evidence from the Senate : Holding other factors constant , such as incumbency advantages and regional factors , the difference between popular votes for Republican presidential and senatorial candidates in states conducting a Senate election turns out to be a positive function of how onerous the federal government 's tax burden is per state -LRB- a progressive tax rate hits higher - income states harder -RRB- .",
+        "removepunc": "An additional piece of evidence from the Senate   Holding other factors constant   such as incumbency advantages and regional factors   the difference between popular votes for Republican presidential and senatorial candidates in states conducting a Senate election turns out to be a positive function of how onerous the federal government  s tax burden is per state  LRB  a progressive tax rate hits higher   income states harder  RRB   ",
+        "robust_remove": "An additional piece of evidence from the Senate Holding other factors constant such as incumbency advantages and regional factors the difference between popular votes for Republican presidential and senatorial candidates in states conducting a Senate election turns out to be a positive function of how onerous the federal government s tax burden is per state -LRB- a progressive tax rate hits higher - income states harder -RRB-"
+    },
+    {
+        "context": "The notion that tracking is somehow `` undemocratic `` is absurd .",
+        "removepunc": "The notion that tracking is somehow    undemocratic    is absurd  ",
+        "robust_remove": "The notion that tracking is somehow undemocratic is absurd"
+    },
+    {
+        "context": "Fourth , the theory indicates why the Republican Party may have a difficult time attracting viable candidates for congressional office .",
+        "removepunc": "Fourth   the theory indicates why the Republican Party may have a difficult time attracting viable candidates for congressional office  ",
+        "robust_remove": "Fourth the theory indicates why the Republican Party may have a difficult time attracting viable candidates for congressional office"
+    },
+    {
+        "context": "Seven American companies had paid to participate in the second auction , which began Friday .",
+        "removepunc": "Seven American companies had paid to participate in the second auction   which began Friday  ",
+        "robust_remove": "Seven American companies had paid to participate in the second auction which began Friday"
+    },
+    {
+        "context": "There also are reports from several labs , as yet unpublished , of missing p53 genes in tissue taken from kidney , brain and skin cancers .",
+        "removepunc": "There also are reports from several labs   as yet unpublished   of missing p53 genes in tissue taken from kidney   brain and skin cancers  ",
+        "robust_remove": "There also are reports from several labs as yet unpublished of missing p53 genes in tissue taken from kidney brain and skin cancers"
+    },
+    {
+        "context": "So the driver started to curse at both of them as if they had been in a plot together to ruin his safe-driving record .",
+        "removepunc": "So the driver started to curse at both of them as if they had been in a plot together to ruin his safe driving record  ",
+        "robust_remove": "So the driver started to curse at both of them as if they had been in a plot together to ruin his safe-driving record"
+    },
+    {
+        "context": "When their changes are completed , and after they have worked up a sweat , ringers often skip off to the local pub , leaving worship for others below .",
+        "removepunc": "When their changes are completed   and after they have worked up a sweat   ringers often skip off to the local pub   leaving worship for others below  ",
+        "robust_remove": "When their changes are completed and after they have worked up a sweat ringers often skip off to the local pub leaving worship for others below"
+    },
+    {
+        "context": "Third , the theory suggests why legislators who pay too much attention to national policy making relative to local benefit-seeking have lower security in office .",
+        "removepunc": "Third   the theory suggests why legislators who pay too much attention to national policy making relative to local benefit seeking have lower security in office  ",
+        "robust_remove": "Third the theory suggests why legislators who pay too much attention to national policy making relative to local benefit-seeking have lower security in office"
+    },
+    {
+        "context": "The interactions between health and homelessness are complex , defying sweeping generalizations as to `` cause `` or `` effect . ``",
+        "removepunc": "The interactions between health and homelessness are complex   defying sweeping generalizations as to    cause    or    effect     ",
+        "robust_remove": "The interactions between health and homelessness are complex defying sweeping generalizations as to cause or effect"
+    },
+    {
+        "context": "Researchers say the inactivation of tumor-suppressor genes , alone or in combination , appears crucial to the development of such scourges as cancer of the brain , the skin , kidney , prostate , and cervix .",
+        "removepunc": "Researchers say the inactivation of tumor suppressor genes   alone or in combination   appears crucial to the development of such scourges as cancer of the brain   the skin   kidney   prostate   and cervix  ",
+        "robust_remove": "Researchers say the inactivation of tumor-suppressor genes alone or in combination appears crucial to the development of such scourges as cancer of the brain the skin kidney prostate and cervix"
+    },
+    {
+        "context": "`` It turns out that studying a tragic but uncommon tumor made possible some fundamental insights about the most basic workings of cancer , `` says Samuel Broder , director of the National Cancer Institute .",
+        "removepunc": "   It turns out that studying a tragic but uncommon tumor made possible some fundamental insights about the most basic workings of cancer      says Samuel Broder   director of the National Cancer Institute  ",
+        "robust_remove": "It turns out that studying a tragic but uncommon tumor made possible some fundamental insights about the most basic workings of cancer says Samuel Broder director of the National Cancer Institute"
+    },
+    {
+        "context": "That number was reached Friday before the game against Panama ( 0-2 ) , in Rommel Fernandez .",
+        "removepunc": "That number was reached Friday before the game against Panama   0 2     in Rommel Fernandez  ",
+        "robust_remove": "That number was reached Friday before the game against Panama ( 0-2 ) in Rommel Fernandez"
+    },
+    {
+        "context": "The hangover in turn reminded him of his conversation with the weirdy , and he groaned .",
+        "removepunc": "The hangover in turn reminded him of his conversation with the weirdy   and he groaned  ",
+        "robust_remove": "The hangover in turn reminded him of his conversation with the weirdy and he groaned"
+    },
+    {
+        "context": "Anyone who wants to appreciate just how bizarre this situation is -- with students who ca not add or subtract `` learning `` the conceptual basis of mathematical theory -- should read the article by Caleb Nelson ( himself a recent math major at Harvard ) in the November American Spectator .",
+        "removepunc": "Anyone who wants to appreciate just how bizarre this situation is    with students who ca not add or subtract    learning    the conceptual basis of mathematical theory    should read the article by Caleb Nelson   himself a recent math major at Harvard   in the November American Spectator  ",
+        "robust_remove": "Anyone who wants to appreciate just how bizarre this situation is -- with students who ca not add or subtract learning the conceptual basis of mathematical theory -- should read the article by Caleb Nelson ( himself a recent math major at Harvard ) in the November American Spectator"
+    },
+    {
+        "context": "Anyone who wants to appreciate just how bizarre this situation is -- with students who ca not add or subtract `` learning `` the conceptual basis of mathematical theory -- should read the article by Caleb Nelson ( himself a recent math major at Harvard ) in the November American Spectator .",
+        "removepunc": "Anyone who wants to appreciate just how bizarre this situation is    with students who ca not add or subtract    learning    the conceptual basis of mathematical theory    should read the article by Caleb Nelson   himself a recent math major at Harvard   in the November American Spectator  ",
+        "robust_remove": "Anyone who wants to appreciate just how bizarre this situation is -- with students who ca not add or subtract learning the conceptual basis of mathematical theory -- should read the article by Caleb Nelson ( himself a recent math major at Harvard ) in the November American Spectator"
+    },
+    {
+        "context": "Yes , we all can remember one or two truly inspiring teachers from our school days .",
+        "removepunc": "Yes   we all can remember one or two truly inspiring teachers from our school days  ",
+        "robust_remove": "Yes we all can remember one or two truly inspiring teachers from our school days"
+    },
+    {
+        "context": "Gradually , a coherent picture of cancer development emerged .",
+        "removepunc": "Gradually   a coherent picture of cancer development emerged  ",
+        "robust_remove": "Gradually a coherent picture of cancer development emerged"
+    },
+    {
+        "context": "His shout had been involuntary , something anybody might have done without thinking , on the spur of the moment .",
+        "removepunc": "His shout had been involuntary   something anybody might have done without thinking   on the spur of the moment  ",
+        "robust_remove": "His shout had been involuntary something anybody might have done without thinking on the spur of the moment"
+    },
+    {
+        "context": "As we know , voters tend to favor Republicans more in races for president than in those for Congress .",
+        "removepunc": "As we know   voters tend to favor Republicans more in races for president than in those for Congress  ",
+        "robust_remove": "As we know voters tend to favor Republicans more in races for president than in those for Congress"
+    },
+    {
+        "context": "`` So crunch , crunch , crunch , bang , bang , bang -- here come the ringers from above , making a very obvious exit while the congregation is at prayer , `` he says .",
+        "removepunc": "   So crunch   crunch   crunch   bang   bang   bang    here come the ringers from above   making a very obvious exit while the congregation is at prayer      he says  ",
+        "robust_remove": "So crunch crunch crunch bang bang bang -- here come the ringers from above making a very obvious exit while the congregation is at prayer he says"
+    },
+    {
+        "context": "If it is , it will be treated as an operator , if it is not , it will be treated as a user function .",
+        "removepunc": "If it is   it will be treated as an operator   if it is not   it will be treated as a user function  ",
+        "robust_remove": "If it is it will be treated as an operator if it is not it will be treated as a user function"
+    },
+    {
+        "context": "Let us sum up what we do know about education and about those education reforms that do work and do not work : -- `` Parental involvement `` is a bad idea .",
+        "removepunc": "Let us sum up what we do know about education and about those education reforms that do work and do not work         Parental involvement    is a bad idea  ",
+        "robust_remove": "Let us sum up what we do know about education and about those education reforms that do work and do not work -- Parental involvement is a bad idea"
+    },
+    {
+        "context": "The man was uncanny , like a shadow , and made as much noise as a shadow .",
+        "removepunc": "The man was uncanny   like a shadow   and made as much noise as a shadow  ",
+        "robust_remove": "The man was uncanny like a shadow and made as much noise as a shadow"
+    },
+    {
+        "context": "Bill and Bonnie Quinlan are among the first beneficiaries of the new findings .",
+        "removepunc": "Bill and Bonnie Quinlan are among the first beneficiaries of the new findings  ",
+        "robust_remove": "Bill and Bonnie Quinlan are among the first beneficiaries of the new findings"
+    },
+    {
+        "context": "The 10 deals the Iraqi Oil Ministry reached with foreign oil companies suggest that China , Russia and European oil firms are poised to play a major role in refurbishing Iraq 's oil industry , crippled by decades of war and sanctions .",
+        "removepunc": "The 10 deals the Iraqi Oil Ministry reached with foreign oil companies suggest that China   Russia and European oil firms are poised to play a major role in refurbishing Iraq  s oil industry   crippled by decades of war and sanctions  ",
+        "robust_remove": "The 10 deals the Iraqi Oil Ministry reached with foreign oil companies suggest that China Russia and European oil firms are poised to play a major role in refurbishing Iraq s oil industry crippled by decades of war and sanctions"
+    },
+    {
+        "context": "When the balloon is cruising along at a steady altitude there is little sense of motion .",
+        "removepunc": "When the balloon is cruising along at a steady altitude there is little sense of motion  ",
+        "robust_remove": "When the balloon is cruising along at a steady altitude there is little sense of motion"
+    },
+    {
+        "context": "The whole notion of `` creativity `` in education was ( and is ) part and parcel of a romantic rebellion against disciplined instruction , which was ( and is ) regarded as `` authoritarian , `` a repression and frustration of the latent talents and the wonderful , if as yet undefined , potentialities inherent in the souls of all our children .",
+        "removepunc": "The whole notion of    creativity    in education was   and is   part and parcel of a romantic rebellion against disciplined instruction   which was   and is   regarded as    authoritarian      a repression and frustration of the latent talents and the wonderful   if as yet undefined   potentialities inherent in the souls of all our children  ",
+        "robust_remove": "The whole notion of creativity in education was ( and is ) part and parcel of a romantic rebellion against disciplined instruction which was ( and is ) regarded as authoritarian a repression and frustration of the latent talents and the wonderful if as yet undefined potentialities inherent in the souls of all our children"
+    },
+    {
+        "context": "The discovery `` does show that in other planetary environments organisms might be able to use other elements to drive biochemistry and that the ` standard ' set of elements we think are absolutely necessary for life might not be so fixed , '' commented Charles Cockell , professor at Planetary and Space Sciences Research Institute , Open University , in Milton Keynes , United Kingdom .",
+        "removepunc": "The discovery    does show that in other planetary environments organisms might be able to use other elements to drive biochemistry and that the   standard   set of elements we think are absolutely necessary for life might not be so fixed      commented Charles Cockell   professor at Planetary and Space Sciences Research Institute   Open University   in Milton Keynes   United Kingdom  ",
+        "robust_remove": "The discovery does show that in other planetary environments organisms might be able to use other elements to drive biochemistry and that the standard set of elements we think are absolutely necessary for life might not be so fixed commented Charles Cockell professor at Planetary and Space Sciences Research Institute Open University in Milton Keynes United Kingdom"
+    },
+    {
+        "context": "The reasons are complex , but one simple reason ought not to be underestimated .",
+        "removepunc": "The reasons are complex   but one simple reason ought not to be underestimated  ",
+        "robust_remove": "The reasons are complex but one simple reason ought not to be underestimated"
+    },
+    {
+        "context": "I was in my favorite watering hole , waiting for the game to start .",
+        "removepunc": "I was in my favorite watering hole   waiting for the game to start  ",
+        "robust_remove": "I was in my favorite watering hole waiting for the game to start"
+    },
+    {
+        "context": "Occasionally , gross chromosome damage was visible .",
+        "removepunc": "Occasionally   gross chromosome damage was visible  ",
+        "robust_remove": "Occasionally gross chromosome damage was visible"
+    },
+    {
+        "context": "`` As a result , organisms have a hard time telling these elements apart . ''",
+        "removepunc": "   As a result   organisms have a hard time telling these elements apart     ",
+        "robust_remove": "As a result organisms have a hard time telling these elements apart"
+    },
+    {
+        "context": "Says Mr. Baldwin , `` We recognize that we may no longer have as high a priority in church life and experience . ``",
+        "removepunc": "Says Mr  Baldwin      We recognize that we may no longer have as high a priority in church life and experience     ",
+        "robust_remove": "Says Mr Baldwin We recognize that we may no longer have as high a priority in church life and experience"
+    },
+    {
+        "context": "Eyes that were clear , but also bright with a strange intensity , a sort of cold fire burning behind them .",
+        "removepunc": "Eyes that were clear   but also bright with a strange intensity   a sort of cold fire burning behind them  ",
+        "robust_remove": "Eyes that were clear but also bright with a strange intensity a sort of cold fire burning behind them"
+    },
+    {
+        "context": "Nobody witnessed the fall -- just the sickening impact when his body smashed on the pavement just outside the basement delivery entrance .",
+        "removepunc": "Nobody witnessed the fall    just the sickening impact when his body smashed on the pavement just outside the basement delivery entrance  ",
+        "robust_remove": "Nobody witnessed the fall -- just the sickening impact when his body smashed on the pavement just outside the basement delivery entrance"
+    },
+    {
+        "context": "Each variation , or change , can occur only once , the rules state .",
+        "removepunc": "Each variation   or change   can occur only once   the rules state  ",
+        "robust_remove": "Each variation or change can occur only once the rules state"
+    },
+    {
+        "context": "Here it seems necessary to state that it is n't a disadvantageous situation for rival nor is an obtained benefit in the same game , because evidently the result of the action supposes leaving their own team with less players .",
+        "removepunc": "Here it seems necessary to state that it is n t a disadvantageous situation for rival nor is an obtained benefit in the same game   because evidently the result of the action supposes leaving their own team with less players  ",
+        "robust_remove": "Here it seems necessary to state that it is nt a disadvantageous situation for rival nor is an obtained benefit in the same game because evidently the result of the action supposes leaving their own team with less players"
+    },
+    {
+        "context": "It was clear that more than one gene had to be damaged for colon cancer to develop .",
+        "removepunc": "It was clear that more than one gene had to be damaged for colon cancer to develop  ",
+        "robust_remove": "It was clear that more than one gene had to be damaged for colon cancer to develop"
+    },
+    {
+        "context": "Mr. Hammond worries that old age and the flightiness of youth will diminish the ranks of the East Anglian group that keeps the Aslacton bells pealing .",
+        "removepunc": "Mr  Hammond worries that old age and the flightiness of youth will diminish the ranks of the East Anglian group that keeps the Aslacton bells pealing  ",
+        "robust_remove": "Mr Hammond worries that old age and the flightiness of youth will diminish the ranks of the East Anglian group that keeps the Aslacton bells pealing"
+    },
+    {
+        "context": "Of the approximately 200 sponsors of the recent march in Washington for the homeless , you chose to cite such groups as the National Association of Home Builders and the International Union of Bricklayers and Allied Craftsmen , insinuating that the march got its major support from self-serving groups that `` know a good thing when they see it , `` and that the crusade was based on greed or the profit motive .",
+        "removepunc": "Of the approximately 200 sponsors of the recent march in Washington for the homeless   you chose to cite such groups as the National Association of Home Builders and the International Union of Bricklayers and Allied Craftsmen   insinuating that the march got its major support from self serving groups that    know a good thing when they see it      and that the crusade was based on greed or the profit motive  ",
+        "robust_remove": "Of the approximately 200 sponsors of the recent march in Washington for the homeless you chose to cite such groups as the National Association of Home Builders and the International Union of Bricklayers and Allied Craftsmen insinuating that the march got its major support from self-serving groups that know a good thing when they see it and that the crusade was based on greed or the profit motive"
+    },
+    {
+        "context": "Minute by minute , they sent out reports of gruesome testimony via Twitter .",
+        "removepunc": "Minute by minute   they sent out reports of gruesome testimony via Twitter  ",
+        "robust_remove": "Minute by minute they sent out reports of gruesome testimony via Twitter"
+    },
+    {
+        "context": "Felisa Wolfe-Simon of NASA 's Astrobiology Institute , who led the study , targeted Mono Lake because it has high arsenic levels .",
+        "removepunc": "Felisa Wolfe Simon of NASA  s Astrobiology Institute   who led the study   targeted Mono Lake because it has high arsenic levels  ",
+        "robust_remove": "Felisa Wolfe-Simon of NASA s Astrobiology Institute who led the study targeted Mono Lake because it has high arsenic levels"
+    },
+    {
+        "context": "Two years ago , the Rev. Jeremy Hummerstone , vicar of Great Torrington , Devon , got so fed up with ringers who did n't attend service he sacked the entire band ; the ringers promptly set up a picket line in protest .",
+        "removepunc": "Two years ago   the Rev  Jeremy Hummerstone   vicar of Great Torrington   Devon   got so fed up with ringers who did n t attend service he sacked the entire band   the ringers promptly set up a picket line in protest  ",
+        "robust_remove": "Two years ago the Rev Jeremy Hummerstone vicar of Great Torrington Devon got so fed up with ringers who did nt attend service he sacked the entire band the ringers promptly set up a picket line in protest"
+    },
+    {
+        "context": "It is easy to see why the ancient art is on the ropes .",
+        "removepunc": "It is easy to see why the ancient art is on the ropes  ",
+        "robust_remove": "It is easy to see why the ancient art is on the ropes"
+    },
+    {
+        "context": "Nice if you want to define some libraries or resume some previous work .",
+        "removepunc": "Nice if you want to define some libraries or resume some previous work  ",
+        "robust_remove": "Nice if you want to define some libraries or resume some previous work"
+    },
+    {
+        "context": "It is so extended that it part of the ethos , of the unwritten rules , but followed nonetheless by this sport .",
+        "removepunc": "It is so extended that it part of the ethos   of the unwritten rules   but followed nonetheless by this sport  ",
+        "robust_remove": "It is so extended that it part of the ethos of the unwritten rules but followed nonetheless by this sport"
+    },
+    {
+        "context": "Fortunately , these same parents do want their children to get a decent education as traditionally understood , and they have enough common sense to know what that demands .",
+        "removepunc": "Fortunately   these same parents do want their children to get a decent education as traditionally understood   and they have enough common sense to know what that demands  ",
+        "robust_remove": "Fortunately these same parents do want their children to get a decent education as traditionally understood and they have enough common sense to know what that demands"
+    }
+]
