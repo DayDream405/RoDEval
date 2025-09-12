@@ -12,8 +12,13 @@ Finally, instantiate an `experiment.executor.LlmExperimentExecutor`to configure 
 Optionally, you can use the`experiment.executor.LlmExecutorConfig` class to set up an `executor` more rapidly.
 
 ```python
-''' To evaluate the performance of GPT-4o on traditional multiple-choice Word Sense Disambiguation (WSD) tasks using OpenAI's API, experiments were conducted over five independent rounds. The test sets consisted of five public English WSD benchmarks: SemEval-2007, SemEval-2013, SemEval-2015, Senseval-2, and Senseval-3.
-'''
+ """
+    To evaluate the performance of GPT-4o on traditional multiple-choice 
+    Word Sense Disambiguation (WSD) tasks using OpenAI's API, experiments 
+    were conducted over five independent rounds. The test sets consisted 
+    of five public English WSD benchmarks: SemEval-2007, SemEval-2013, 
+    SemEval-2015, Senseval-2, and Senseval-3.
+"""
 from experiment.executor import LlmExecutorConfig
 from demo.prompts import *
 from demo.experimenter_demo import *
