@@ -12,7 +12,7 @@ to install the required Python packages for running the framework. **Note:** You
 
 This framework includes pre-built modules for processing five public English word sense disambiguation (WSD) test datasets, three types of WSD tasks, and one data leakage detection task.
 
-- Click [here](experiment/Evaluation Pipeline.md) to see how to use the predefined methods to construct a complete evaluation pipeline.
+- Click [here](docs/Evaluation%20Pipeline.md) to see how to use the predefined methods to construct a complete evaluation pipeline.
 
 The framework also supports custom evaluation:
 
