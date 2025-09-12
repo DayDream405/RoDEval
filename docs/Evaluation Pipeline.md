@@ -1,15 +1,15 @@
 # Evaluation Pipeline
 
-一个完整的评测流程需要：
+A complete evaluation pipeline requires the following components:
 
-- `entity.large_language_model.LargeLanguageModel`:声明一个被测试的大模型。如何声明
-- `utils.prompt_generator.PromptGenerator`:声明一个prompt生成器，用于生成评测任务的prompt。如何声明
-- `experiment.experimenter.LlmExperimenter`:声明一个实验器，用于执行一个实验过程。如何声明
-- `utils.evaluator.EvaluatorInterface`:声明一个评估器，用于评估模型的答案的得分。如何声明
+- `entity.large_language_model.LargeLanguageModel`:Declare a large language model to be tested. [How to declare]
+- `utils.prompt_generator.PromptGenerator`:Declare a prompt generator used to create prompts for the evaluation tasks. [How to declare]
+- `experiment.experimenter.LlmExperimenter`:Declare an experimenter responsible for executing the experimental process. [How to declare]
+- `utils.evaluator.EvaluatorInterface`:Declare an evaluator used to score the model's answers. [How to declare]
 
-最后实例化一个`experiment.executor.LlmExperimentExecutor`用于设置上述组件。
+Finally, instantiate an `experiment.executor.LlmExperimentExecutor`to configure the components mentioned above.
 
-你还可以选择使用`experiment.executor.LlmExecutorConfig`类更加快速地完成一个`executor`的设置：
+Optionally, you can use the`experiment.executor.LlmExecutorConfig` class to set up an `executor` more rapidly.
 
 ```python
 ''' To evaluate the performance of GPT-4o on traditional multiple-choice Word Sense Disambiguation (WSD) tasks using OpenAI's API, experiments were conducted over five independent rounds. The test sets consisted of five public English WSD benchmarks: SemEval-2007, SemEval-2013, SemEval-2015, Senseval-2, and Senseval-3.
