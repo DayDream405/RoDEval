@@ -116,8 +116,9 @@ class LlmExperimentExecutor(ExperimentExecutor):
 
         pass
 
-    def add_experimenter(self, experimenter: LlmExperimenter, evaluator: EvaluatorInterface):
-        experimenter.general_settings(self.llm, self.prompt_generator, evaluator)
+    def add_experimenter(self, experimenter: LlmExperimenter, evaluator: EvaluatorInterface=None):
+        if evaluator is not None:
+            experimenter.general_settings(self.llm, self.prompt_generator, evaluator)
         self._experimenter_list.append(experimenter)
         pass
 
@@ -147,6 +148,7 @@ class LlmExecutorConfig(object):
         self.__prompt_generator = None
         self.__prompt_formatter = None
         self.__epoch: int = 1
+        self._experimenter_list: List[LlmExperimenter] = []
 
     def set_llm(self, name: str, interact_function, **kwargs) -> None:
         self.__llm = LargeLanguageModel(name, interact_function, **kwargs)
@@ -198,6 +200,12 @@ class LlmExecutorConfig(object):
     def set_epoch(self, epoch: int) -> None:
         assert epoch >= 1, 'The number of experimental rounds must be greater than 1, setted epoch:{}'.format(epoch)
         self.__epoch = epoch
+    
+    def add_experimenter(self, experimenter: LlmExperimenter, evaluator: EvaluatorInterface):
+        experimenter.general_settings(self.llm, self.prompt_generator, evaluator)
+        self._experimenter_list.append(experimenter)
+        pass
+
     def get_executor(self) -> LlmExperimentExecutor | None:
 
         assert (len(self.__dataset_name) == len(self.__data_path_list)), 'The number of dataset name does not match the paths. name:{},path:{}' \
@@ -210,6 +218,9 @@ class LlmExecutorConfig(object):
             self.__data_list.append(data)
         executor = LlmExperimentExecutor(self.__llm, self.__data_list, self.__epoch,
                                          self.__prompt_generator, self.__prompt_formatter)
+        if len(self._experimenter_list) != 0:
+            for e in self._experimenter_list:
+                executor.add_experimenter(e)
         return executor
 
 
