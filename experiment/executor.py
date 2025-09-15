@@ -27,13 +27,13 @@ from utils.formatter import *
 from utils.prompt_generator import PromptGenerator, PromptFragmentInterface
 from stream.file_stream import *
 
-default_dataset_name = ['semeval2007', 'semeval2013', 'semeval2015', 'senseval2', 'senseval3', 'subAll']
+default_dataset_name = ['semeval2007', 'semeval2013', 'semeval2015', 'senseval2', 'senseval3']
 default_dataset_path = [['datasets/en/semeval2007/semeval2007.data.xml', 'datasets/en/semeval2007/semeval2007.gold.key.txt'],
                         ['datasets/en/semeval2013/semeval2013.data.xml', 'datasets/en/semeval2013/semeval2013.gold.key.txt'],
                         ['datasets/en/semeval2015/semeval2015.data.xml', 'datasets/en/semeval2015/semeval2015.gold.key.txt'],
                         ['datasets/en/senseval2/senseval2.data.xml', 'datasets/en/senseval2/senseval2.gold.key.txt'],
                         ['datasets/en/senseval3/senseval3.data.xml', 'datasets/en/senseval3/senseval3.gold.key.txt'],
-                        ['Sub.data.xml', 'ALL.gold.key.txt']]
+                        ]
 
 class ExperimentExecutor(ABC):
     """ Abstract base class for experiment executors.
@@ -158,6 +158,11 @@ class LlmExecutorConfig(object):
 
     def set_data_path_list(self, path_list: List[List[str]]) -> None:
         self.__data_path_list = path_list
+    def set_custom_dataset(self, dataset: DataSetInterface=None, data_list: List[DataSetInterface]=None) -> None:
+        if dataset is not None:
+            self.__data_list = [dataset]
+        elif data_list is not None:
+            self.__data_list = data_list
 
     def choose_default_dataset(self, start: int, end: int):
         """ Choose a default dataset from a predefined list. The predefined datasets are:
@@ -207,15 +212,16 @@ class LlmExecutorConfig(object):
         pass
 
     def get_executor(self) -> LlmExperimentExecutor | None:
+        if len(self.__data_list) == 0:
+            if len(self.__dataset_name) != 0:
+                assert (len(self.__dataset_name) == len(self.__data_path_list)), 'The number of dataset name does not match the paths. name:{},path:{}' \
+                    .format(len(self.__dataset_name), len(self.__data_path_list))
+            for i in range(len(self.__dataset_name)):
+                data_name = self.__dataset_name[i]
+                data_path = self.__data_path_list[i]
+                data = UnifiedDataSet(data_name, data_path[0], data_path[1])
+                self.__data_list.append(data)
 
-        assert (len(self.__dataset_name) == len(self.__data_path_list)), 'The number of dataset name does not match the paths. name:{},path:{}' \
-            .format(len(self.__dataset_name), len(self.__data_path_list))
-
-        for i in range(len(self.__dataset_name)):
-            data_name = self.__dataset_name[i]
-            data_path = self.__data_path_list[i]
-            data = UnifiedDataSet(data_name, data_path[0], data_path[1])
-            self.__data_list.append(data)
         executor = LlmExperimentExecutor(self.__llm, self.__data_list, self.__epoch,
                                          self.__prompt_generator, self.__prompt_formatter)
         if len(self._experimenter_list) != 0:
