@@ -2,11 +2,10 @@
 
 ## 📋 Table of Contents
 
-1. [Overview](####1. Overview)
-2. [Quick Start](####2. Quick Start)
+1. [Overview](#1-overview)
+2. [Quick Start](#2-quick-start)
 3. Interface Definition (`Abstract Base Class`)
 4. Predefined Implementations
-5. Quick Start
 6. Detailed Description
    - 5.1. `method_name`
    - 5.2. `property_name`
