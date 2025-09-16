@@ -21,7 +21,7 @@ from entity.experimental_data import ExperimentalData, MCQExperimentalData
 from entity.large_language_model import LargeLanguageModel
 from entity.results import ExperimentalResult
 from experiment.experimenter import ExperimenterInterface, LlmExperimenter, save_record
-from utils.dataset_process import DataSetInterface, UnifiedDataSet
+from utils.dataset_process import DatasetInterface, UnifiedDataSet
 from utils.evaluator import EvaluatorInterface
 from utils.formatter import *
 from utils.prompt_generator import PromptGenerator, PromptFragmentInterface
@@ -92,7 +92,7 @@ class LlmExperimentExecutor(ExperimentExecutor):
         execute(self, is_save_result=False, is_save_record=False): Execute the experiments with the added experimenters.
     """
 
-    def __init__(self, llm: LargeLanguageModel, dataset: List[DataSetInterface], epoch: int,
+    def __init__(self, llm: LargeLanguageModel, dataset: List[DatasetInterface], epoch: int,
                  prompt_generator: PromptGenerator, 
                  prompt_formatter: FormatterController=None):
 
@@ -144,7 +144,7 @@ class LlmExecutorConfig(object):
         self.__llm = None
         self.__dataset_name: List[str] = default_dataset_name
         self.__data_path_list: List[List[str]] = default_dataset_path
-        self.__data_list: List[DataSetInterface] = []
+        self.__data_list: List[DatasetInterface] = []
         self.__prompt_generator = None
         self.__prompt_formatter = None
         self.__epoch: int = 1
@@ -158,7 +158,7 @@ class LlmExecutorConfig(object):
 
     def set_data_path_list(self, path_list: List[List[str]]) -> None:
         self.__data_path_list = path_list
-    def set_custom_dataset(self, dataset: DataSetInterface=None, data_list: List[DataSetInterface]=None) -> None:
+    def set_custom_dataset(self, dataset: DatasetInterface=None, data_list: List[DatasetInterface]=None) -> None:
         if dataset is not None:
             self.__data_list = [dataset]
         elif data_list is not None:

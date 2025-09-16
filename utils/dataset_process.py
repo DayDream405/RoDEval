@@ -18,7 +18,7 @@ from entity.experimental_data import ExperimentalData, Polysemous
 from utils.wordnet_tools import WordNetSynsets
 
 
-class DataSetInterface(ABC):
+class DatasetInterface(ABC):
     """ Unified Dataset Interface
     Attributes:
         data_list (List[ExperimentalData]): List of experimental data
@@ -37,7 +37,7 @@ class DataSetInterface(ABC):
     pass
 
 
-class UnifiedDataSet(DataSetInterface):
+class UnifiedDataSet(DatasetInterface):
     """ Unified Dataset Class
     This class can process datasets in the format of SemEval-07 -13 -15 and Senseval-2 -3
     It reads the xml file and gold key file, and encapsulates the data into ExperimentalData objects

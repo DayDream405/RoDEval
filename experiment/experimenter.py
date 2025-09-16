@@ -24,7 +24,7 @@ import os
 from entity.large_language_model import LargeLanguageModel
 from entity.experimental_data import ExperimentalData, MCQExperimentalData
 from entity.results import ExperimentalResult, EvaluationResults, merge_evaluationresults
-from utils.dataset_process import DataSetInterface
+from utils.dataset_process import DatasetInterface
 from utils.formatter import FormatterController
 from utils.prompt_generator import PromptGenerator, LeadingWordAndLeadedContent
 from utils.evaluator import EvaluatorInterface, MCQEvaluator, GenerationScoreEvaluator, TraditionalGenerationCriteriaEvaluator
@@ -36,7 +36,7 @@ from stream.file_stream import *
 class ExperimenterInterface(ABC):
 
     @abstractmethod
-    def run_experiment(self, dataset: DataSetInterface, epoch: int = 1):
+    def run_experiment(self, dataset: DatasetInterface, epoch: int = 1):
         pass
 
     pass
@@ -76,7 +76,7 @@ class LlmExperimenter(ExperimenterInterface):
         self._options = LeadingWordAndLeadedContent('Options')
         self._output = LeadingWordAndLeadedContent('Output')
 
-    def run_experiment(self, dataset: DataSetInterface, epoch: int=1, is_save_record=False):
+    def run_experiment(self, dataset: DatasetInterface, epoch: int=1, is_save_record=False):
         pass
     def general_settings(self, llm: LargeLanguageModel,
                          prompt_generator: PromptGenerator, evaluator: EvaluatorInterface,
@@ -136,7 +136,7 @@ class McqExperimenter(LlmExperimenter):
         super().__init__(experiment_name)
         self._options_generator: OptionGeneratorInterface = options_generator
 
-    def run_experiment(self, dataset: DataSetInterface, epoch: int=1, is_save_record=False) -> tuple[List[ExperimentalResult], EvaluationResults]|None:
+    def run_experiment(self, dataset: DatasetInterface, epoch: int=1, is_save_record=False) -> tuple[List[ExperimentalResult], EvaluationResults]|None:
         
         self._prompt_generator.add_prompt_fragment(self._context)
         self._prompt_generator.add_prompt_fragment(self._target_word)
@@ -225,7 +225,7 @@ class GenerationExperiment(LlmExperimenter):
         run_experiment(self, dataset: DataSetInterface, epoch: int=1): Run the generation experiment
     """
 
-    def run_experiment(self, dataset: DataSetInterface, epoch: int=1, is_save_record=False) -> tuple[List[ExperimentalResult], EvaluationResults]|None:
+    def run_experiment(self, dataset: DatasetInterface, epoch: int=1, is_save_record=False) -> tuple[List[ExperimentalResult], EvaluationResults]|None:
         
         self._prompt_generator.add_prompt_fragment(self._context)
         self._prompt_generator.add_prompt_fragment(self._target_word)
@@ -312,7 +312,7 @@ class ContaminationTraceExperimenter(LlmExperimenter):
     def __init__(self, experiment_name, is_guided: bool=False):
         super().__init__(experiment_name)
         self.__is_guided: bool = is_guided
-    def run_experiment(self, dataset: DataSetInterface, epoch: int = 1, is_save_record=False):
+    def run_experiment(self, dataset: DatasetInterface, epoch: int = 1, is_save_record=False):
         data_name = dataset.name
         data_list = dataset.data_list
         data_list = random.sample(data_list, 10)
@@ -368,7 +368,7 @@ class SelfCheckExperimenter(LlmExperimenter):
         run_experiment(self, dataset: DataSetInterface, epoch: int=1): Run the self-check experiment
     """
 
-    def run_experiment(self, dataset: DataSetInterface, epoch: int = 1, is_save_record=False):
+    def run_experiment(self, dataset: DatasetInterface, epoch: int = 1, is_save_record=False):
         data_list = dataset.data_list
 
         self._prompt_generator.add_prompt_fragment(self._context)
