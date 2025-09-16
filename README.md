@@ -106,25 +106,13 @@ executor.execute(is_save_record=True,  # Save detailed interaction records
 **Next Steps**
 
 - See [Custom Evaluation](docs/Evaluation%20Pipeline.md) for advanced configuration options
+- Implement [experimenter interface]() for designing new WSD task
 - Learn about [Custom Metrics]() for implementing custom evaluation protocols
 - Explore [Dataset Integration]() for adding new evaluation datasets
 
 For detailed API documentation, visit our [API Reference](https://link-to-docs/).
 
-你可以参考以下代码快速设置一个完整的WSD评测pipeline，并开始评测大模型的词义消歧能力
 
-This framework includes pre-built modules for processing five public English word sense disambiguation (WSD) test datasets, three types of WSD tasks, and one data leakage detection task.
 
-- Click [here](docs/Evaluation%20Pipeline.md) to see how to use the predefined methods to construct a complete evaluation pipeline.
-
-The framework also supports custom evaluation:
-
-- To view the interfaces supported by the framework, click [here].
-- For instructions on using other datasets, click [here].
-- For guidance on setting up large language models, click [here].
-- To learn how to customize experiments, click [here].
-- For details on customizing an evaluation method, click [here].
-- For a tutorial on building a fully custom evaluation pipeline, click [here].
-
-For any questions, please contact us: luyang.zhang.qlu@gmail.com
+###### For any issues, please contact us: luyang.zhang.qlu@gmail.com
 
