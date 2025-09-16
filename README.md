@@ -105,7 +105,7 @@ executor.execute(is_save_record=True,  # Save detailed interaction records
 
 **Next Steps**
 
-- See [Custom Evaluation](docs\Evaluation Pipeline.md) for advanced configuration options
+- See [Custom Evaluation](docs/Evaluation%20Pipeline.md) for advanced configuration options
 - Learn about [Custom Metrics]() for implementing custom evaluation protocols
 - Explore [Dataset Integration]() for adding new evaluation datasets
 
