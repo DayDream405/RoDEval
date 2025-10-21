@@ -110,4 +110,5 @@ For detailed API documentation, visit our [API Reference](https://link-to-docs/)
 
 
 ###### For any issues, please contact us: luyang.zhang.qlu@gmail.com
-
+###### 临近毕业，疲于找博士导师中。。。我会在学业稳定后再回复问题并更新缺失的文档，请谅解。
+###### Approaching graduation, exhausted from searching for a doctoral supervisor... I will reply to issues and update missing documents after my studies have stabilized. Please understand.
