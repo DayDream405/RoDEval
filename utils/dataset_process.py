@@ -114,15 +114,44 @@ class UnifiedDataSet(DatasetInterface):
             List[ExperimentalData]: List of ExperimentalData objects
 
         """
+        # 构建上下文
+        # 定义不需要空格的标点符号和特殊字符
+        PUNCTUATION = {
+            '.', ',', ';', ':', '!', '?',      # 基本标点
+            "'", '"', '`', '“', '”', '‘', '’', # 引号
+            '(', ')', '[', ']', '{', '}',      # 括号
+            '-', '–', '—',                     # 连字符和破折号
+            '%', '#', '$', '&', '*',           # 特殊符号
+            '/', '\\', '|',                    # 斜杠
+            '+', '=', '<', '>',                # 数学符号
+            '~', '^', '_',                     # 其他符号
+            '@'                                # at符号
+        }
+
         context = ''
+        words = []
+        for i, w in enumerate(sentence_tag):
+            text = w.text
+            # 处理空文本
+            if not text:
+                continue
+                
+            # 第一个单词直接添加
+            if i == 0:
+                words.append(text)
+            else:
+                # 检查当前词和前一个词
+                prev_text = sentence_tag[i-1].text
+                
+                # 如果当前是标点符号或前一个是标点符号，不加空格
+                if text in PUNCTUATION or prev_text in PUNCTUATION:
+                    words.append(text)
+                else:
+                    words.append(' ' + text)
+        context = ''.join(words)
+
         new_word_dict: Dict[str, Polysemous] = {}
         data_list: List[ExperimentalData] = []
-
-        for w in sentence_tag:
-            context += w.text
-            context += ' '
-        context = context.rstrip()
-
         for w in sentence_tag:
             if w.tag =='instance':
                 name = w.attrib['lemma']
