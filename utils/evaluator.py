@@ -251,7 +251,7 @@ class TraditionalGenerationCriteriaEvaluator(EvaluatorInterface):
                     step_r1 = rouge_scores[0]['rouge-1']['f']
                     step_r2 = rouge_scores[0]['rouge-2']['f']
                     step_rl = rouge_scores[0]['rouge-l']['f']
-                    r1 = step_r1 if step_rl > r1 else r1
+                    r1 = step_r1 if step_r1 > r1 else r1
                     r2 = step_r2 if step_r2 > r2 else r2
                     rl = step_rl if step_rl > rl else rl
                     
