@@ -247,7 +247,7 @@ class TraditionalGenerationCriteriaEvaluator(EvaluatorInterface):
             if pre != '' and pre is not None:
                 for r in reals:
                     rouge_instance = Rouge()
-                    rouge_scores = rouge_instance.get_scores(pre, real)
+                    rouge_scores = rouge_instance.get_scores(pre, r)
                     step_r1 = rouge_scores[0]['rouge-1']['f']
                     step_r2 = rouge_scores[0]['rouge-2']['f']
                     step_rl = rouge_scores[0]['rouge-l']['f']
@@ -355,7 +355,7 @@ class GenerationScoreEvaluator(EvaluatorInterface):
                 if self.is_use_llm_embedding:
                     step_sim = sentence_similarity_llm(pre, r) # LLM embedding
                 else:
-                    step_sim = sentence_similarity(pre, real) #BERT embedding
+                    step_sim = sentence_similarity(pre, r) #BERT embedding
 
                 max_sim = step_sim if step_sim > max_sim else max_sim
             sim_list.append(max_sim)
