@@ -4,6 +4,7 @@
 
 1. [Overview](#1-overview)
 2. [Quick Start](#2-quick-start)
+3. [Frequently Asked Questions](#3-Frequently-Asked-Questions)
 
 ## 1. Overview
 
@@ -98,6 +99,28 @@ executor.execute(is_save_record=True,  # Save detailed interaction records
 
 ------
 
+## 3. Frequently Asked Questions
+
+**Q: Is your framework a benchmark?**
+
+**A:** You could consider it a WSD benchmark for large language models, but that isn't entirely the original intent behind proposing this framework. We believe that evaluation methods should evolve alongside the rapid development of large language models. The main motivation for introducing this framework is precisely because a single correctness metric is insufficient to comprehensively assess a model's WSD capability. Therefore, we have considered as many real-world application scenarios as possible and proposed four evaluation metrics.
+
+While it's true that our metrics address certain issues overlooked by traditional benchmarks, they inevitably have their own limitations and cannot cover every possible application scenario. As a result, we do not intend for our metrics to be adopted as a universal standard for comparing scores. Moreover, if certain current WSD issues in large models (such as WSD robustness or model biases) are resolved in the future, some of these metrics may no longer be relevant. Simultaneously, new challenges may emerge in the WSD performance of large models.
+
+Thus, our framework is designed to be extensible and aims to inspire further research. We welcome researchers to test models using their own evaluation criteria.
+
+------
+
+**Q: Why is there no final composite score (e.g., a "WSD Score") to measure the overall WSD capability of models?**
+
+A: Using a single metric to evaluate a specific capability of large language models is inappropriate. Given the complex real-world application scenarios of these models, determining which aspect of their capability should be prioritized is subjective. In fact, we considered deriving an ultimate score to represent a model's WSD ability, but ultimately abandoned the idea based on the above considerations.
+
+------
+
+**If you find our framework helpful for your research, please don't hesitate to give us a star!**
+
+------
+
 **Next Steps**
 
 - See [Custom Evaluation](docs/Evaluation%20Pipeline.md) for advanced configuration options
@@ -107,7 +130,13 @@ executor.execute(is_save_record=True,  # Save detailed interaction records
 
 For detailed API documentation, visit our [API Reference](https://link-to-docs/).
 
+------
 
+### Author Says
+
+**Word Sense Disambiguation(WSD)** was initially proposed as a subtask of machine translation and was considered a relatively straightforward NLP task. Today, however, both LLMs and small classification models have achieved excellent performance in machine translation and are widely deployed in practical applications. Yet, the performance of these models on WSD tasks remains limited, or at least difficult to improve substantially. I believes that our understanding of the difficulty of WSD may be inaccurate, or that current models might not truly disambiguate word senses when performing translation tasks. Therefore, further research on WSD could potentially help models learn to genuinely understand complex semantics. This remains a somewhat niche classification task at present, and I hope more researchers will begin to pay attention to this important research direction.
+
+------
 
 ###### For any issues, please contact us: luyang.zhang.qlu@gmail.com
 ###### 临近毕业，疲于找博士导师中。。。我会在学业稳定后再回复问题并更新缺失的文档，请谅解。
